@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+section{
+    height: 400px;
+    margin-bottom: 100px;
+    text-align-last: center;
+    
+    
+}
+
+h1{
+    font-size: 50px;
+    text-align-last: center;
+    
+}
+.name-highlight{
+    color: #ff287c;
+}
+.header-bg{
+    background-image: url("image/header-bg.png");
+    
+
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-size: 110% 110%;
+    
+    
+    
+    
+}
+.biography-bg{
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    
+}
+.latest-work{
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+    align-items: center;
+
+}
+.footer-bg{
+    background-image: url("image/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    text-align-last: center;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    
+}
+.half-width img{
+    width: 100%;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-color: goldenrod;
+    padding: 10px 20px;
+    border-radius: 10 px;
+    color: white;
+    
+}
+
+.message{
+    text-decoration: none;
+    background-color: #ec4c7a;
+    padding: 10px 20px;
+    border-radius: 10 px;
+    color: white;
+    
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+footer{
+    text-align: center;
+}
